@@ -43,7 +43,7 @@ This portfolio website includes six main pages:
       |white               |255,255,255      |#FFFFFF |
       |Dark Cerulean       |34,87,122        |#22577A |
       |Light Sea Green     |56, 163, 165     |#38A3A5 |
-      |Rich Black FOGRA    |2, 48, 71        |#023047 |
+      |Light Blue          |185, 207, 232    |#b9cfe8 |
       |Amaranth Purple     |165, 56, 96      |#A53860 |
 
 ## Installation
