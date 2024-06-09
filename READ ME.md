@@ -35,6 +35,7 @@ This portfolio website includes six main pages:
 ## Technologies Used
 - HTML
 - CSS
+- TailwindCSS
 - JavaScript
 ## Colour Scheme
       |  Name              |  RGB            |  RGB   |
@@ -51,4 +52,4 @@ To view and run this project locally, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/miniedattu/C4-WT-Project-MM
+   git clone https://github.com/miniedattu/civ-web-final-project-mm
