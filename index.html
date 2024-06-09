@@ -2,9 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/site.css">
+    <link rel="stylesheet" href="./assets/css/pages.css">
+
 </head>
-<body>
+<body class="bg-gray-100 m-0 p-0 box-border leading-7">
+<header class="bg-[#22577A] text-white p-4 text-center relative">
+    <h1 class="m-0 text-3xl font-bold">My Portfolio</h1>
+    <nav>
+        <div class="menu-icon" onclick="toggleMenu()">
+            &#9776;
+        </div>
+        <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./resume.html">Resume</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./mywork.html">My Work</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main class="p-8">
+    <h2 class="text-center text-2xl font-bold mb-8">Welcome to My Portfolio</h2>
+    <section class="intro-section flex flex-col items-center text-center md:flex-row md:justify-between md:text-left">
+        <section class="intro-text w-full mb-4 md:mb-0 md:flex-1 min-w-[300px]">
+            <h2 class="text-2xl md:text-3xl font-semibold mb-2">
+                Hello!<br>
+                I'm Mini Mathew,<br>
+                a Web Developer.
+            </h2>
+            <p>This is the homepage where you can find the latest updates about my work and projects.</p>
+        </section>
+        <section class="intro-image w-full md:flex-1 min-w-[300px]">
+            <img src="./assets/images/index.jpeg" alt="My Image" class="max-w-full h-auto rounded-lg">
+        </section>
+    </section>
+</main>
+<footer class="bg-[#22577A] text-white text-center p-4 bottom-0 w-full">
+    <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+</footer>
+<script src="./assets/javascript/projects.js"></script>
 
 </body>
 </html>
