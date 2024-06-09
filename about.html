@@ -2,9 +2,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/site.css">
+    <link rel="stylesheet" href="./assets/css/pages.css">
+
 </head>
-<body>
+<body class="bg-gray-100 m-0 p-0 box-border leading-7">
+<header class="bg-[#22577A] text-white p-4 text-center relative">
+    <h1 class="m-0 text-3xl font-bold">My Portfolio</h1>
+    <nav>
+        <div class="menu-icon" onclick="toggleMenu()">
+            &#9776;
+        </div>
+        <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./resume.html">Resume</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./mywork.html">My Work</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="flex flex-col md:flex-row">
+    <main class="w-full md:w-3/4 p-4">
+        <h2 class="text-2xl font-bold mb-4">About Me</h2>
+
+        <section class="mb-4">
+            <h3 class="text-xl font-semibold mb-3">Professional Background</h3>
+            <p>I have 2 years of experience in Programming, working with technologies such as C# and SQL Server. My professional journey includes roles such as Software Engineer, where I was working in a developing team.</p>
+        </section>
+        <section class="mb-4">
+            <h3 class="text-xl font-semibold mb-3">Skills and Expertise</h3>
+            <ul>
+                <li>C# Windows and Mobile Application</li>
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>SQL Server</li>
+            </ul>
+        </section>
+        <section class="mb-4">
+            <h3 class="text-xl font-semibold mb-3">Personal Interests</h3>
+            <ol class="list-circle">
+                <li>-  My Family is my strength.</li>
+                <li>-  Traveling is one of my greatest joys.</li>
+                <li>-  Embroidery and stitching are my creative outlets. I enjoy making intricate designs and personalized gifts.</li>
+                <li>-  Giving back to the community is very important to me. I volunteer with local organizations, helping out with various projects and events. It’s a rewarding experience that I cherish deeply.</li>
+            </ol>
+        </section>
+        <section>
+            <h3 class="text-xl font-semibold mb-3">Goals and Aspirations</h3>
+            <p>My career goal is to start working with an IT firm. Personally, I am working towards my goal.</p>
+        </section>
+    </main>
+    <aside class="w-full md:flex-1 min-w-[300px]">
+        <img src="./assets/images/about.webp" alt="About Me" class="w-full h-full object-cover">
+    </aside>
+</section>
+
+<footer class="bg-[#22577A] text-white text-center p-4 bottom-0 w-full">
+    <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+</footer>
+<script src="./assets/javascript/projects.js"></script>
 
 </body>
-</html>
+</html>l>
