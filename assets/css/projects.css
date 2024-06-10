@@ -1,0 +1,32 @@
+.projects-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+}
+
+.project-box {
+    margin-bottom: 1rem; /* Vertical gap between projects */
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #38A3A5;
+    width: 100%; /* Full width for mobile layout */
+    max-width: 600px; /* Maximum width for desktop layout */
+}
+
+@media (min-width: 768px) {
+    .projects-grid {
+        flex-direction: row; /* Desktop layout: two columns */
+        justify-content: center; /* Center items horizontally */
+    }
+
+    .project-box {
+        width: calc(50% - 1rem); /* Two columns, with gap */
+        margin-right: 1rem; /* Gap between columns */
+    }
+
+    .project-box:last-child {
+        margin-right: 0; /* Remove margin from the last item */
+    }
+
+}

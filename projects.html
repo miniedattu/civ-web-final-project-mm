@@ -2,9 +2,87 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - My Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/pages.css">
+    <link rel="stylesheet" href="./assets/css/projects.css">
+
 </head>
 <body>
+<header>
+    <h1>My Portfolio</h1>
+    <nav>
+        <div class="menu-icon" onclick="toggleMenu()">
+            &#9776;
+        </div>
+        <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./resume.html">Resume</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./mywork.html">My Work</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h2>Projects</h2>
+    <div class="projects-grid">
+        <section id="project1" class="project-box">
+            <h3>C# Project for Contractors and Job Search</h3>
+            <p><strong>Description:</strong> Developed a comprehensive platform for contractors to find job opportunities and for employers to post job listings.</p>
+            <p><strong>Technologies Used:</strong> C#, ASP.NET, SQL Server</p>
+            <p><strong>Key Features:</strong></p>
+            <ul>
+                <li>User authentication and profile management</li>
+                <li>Job search and filtering</li>
+                <li>Job posting and management for employers</li>
+            </ul>
+        </section>
+
+        <section id="project2" class="project-box">
+            <h3>Vehicle Management System</h3>
+            <p><strong>Description:</strong> Created a system to add, delete, and search vehicle details using SQL and C#.</p>
+            <p><strong>Technologies Used:</strong> C#, SQL Server</p>
+            <p><strong>Key Features:</strong></p>
+            <ul>
+                <li>Add and delete vehicle records</li>
+                <li>Search functionality with multiple criteria</li>
+                <li>Database integration for data persistence</li>
+            </ul>
+        </section>
+
+        <section id="project3" class="project-box">
+            <h3>Python Wordle Game</h3>
+            <p><strong>Description:</strong> Developed a Python version of the popular word game "Wordle".</p>
+            <p><strong>Technologies Used:</strong> Python</p>
+            <p><strong>Key Features:</strong></p>
+            <ul>
+                <li>Interactive gameplay with word guessing</li>
+                <li>Scoring system</li>
+                <li>Replay functionality</li>
+            </ul>
+        </section>
+
+        <section id="project4" class="project-box">
+            <h3>C# Mobile Application for Weather Information</h3>
+            <p><strong>Description:</strong> Created a mobile application to display weather information using a weather API.</p>
+            <p><strong>Technologies Used:</strong> C#, .NET MAUI, OpenWeather API</p>
+            <p><strong>Key Features:</strong></p>
+            <ul>
+                <li>Current weather display</li>
+                <li>Hourly and daily weather forecasts</li>
+                <li>API integration for real-time data</li>
+            </ul>
+        </section>
+    </div>
+</main>
+
+
+<footer>
+    <p>&copy; Copyright 2024 Mini Mathew. All rights reserved.</p>
+</footer>
+<script src="./assets/javascript/projects.js"></script>
 
 </body>
 </html>
